@@ -21,10 +21,10 @@ export default function HomeLoggedIn() {
       {status === "authenticated" ? (
         <>
           <Typography variant="h4">Vitajte, {session?.user?.name}!</Typography>
-          <Typography variant="body1">Ste prihlásený do aplikácie ZapZapp.</Typography>
+          <Typography variant="body1">yayy</Typography>
         </>
       ) : (
-        <Typography variant="h4">Vitajte na ZapZapp!</Typography>
+        <Typography variant="h4">vitaj</Typography>
       )}
     </Box>
   );

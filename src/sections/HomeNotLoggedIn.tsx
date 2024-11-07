@@ -9,10 +9,10 @@ import { signIn } from 'next-auth/react';
 export default function HomeNotLoggedIn() {
   return (
     <>
-      <Typography variant="h4">Vitajte na ZapZapp!</Typography>
-      <Typography>Aby ste získali prístup k príspevkom a profilom, prosím prihláste sa.</Typography>
+      <Typography>pisomka1</Typography>
+      <Typography>prihláste sa.</Typography>
       <Button variant="contained" color="primary" onClick={() => signIn()}>
-        Prihlásiť sa
+        login
       </Button>
     </>
   );

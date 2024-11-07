@@ -7,8 +7,8 @@ import Navbar from "@/components/NavBar";
 import AuthProvider from "../components/AuthProvider";
 
 export const metadata: Metadata = {
-  title: "SnapZoška",
-  description: "Created by students of SPŠE Zochova 9, Bratislava",
+  title: "písomka1",
+  description: "yayy",
 };
 
 export default function RootLayout({
